@@ -20,25 +20,25 @@ This assignment was developed as part of **Week 5: Real-Time Communication with 
 ## 🏗️ Project Structure
 
 socketio-chat/
-├── client/ # React front-end
-│ ├── public/ # Static assets
-│ ├── src/ # React source code
-│ │ ├── components/ # Chat UI components
-│ │ ├── context/ # React context providers
-│ │ ├── hooks/ # Custom React hooks
-│ │ ├── pages/ # Page components
-│ │ ├── socket/ # Socket.io client setup (socket.js)
-│ │ └── App.jsx # Main application entry
-│ └── package.json # Client dependencies
-├── server/ # Node.js back-end
-│ ├── config/ # Environment config
-│ ├── controllers/ # Socket event handlers
-│ ├── models/ # Data models
-│ ├── socket/ # Socket.io setup (server.js integrates here)
-│ ├── utils/ # Utility functions
-│ ├── server.js # Main server entry file
-│ └── package.json # Server dependencies
-└── README.md # Project documentation
+<br>├── client/ # React front-end</br>
+<br>│ ├── public/ # Static assets</br>
+<br>│ ├── src/ # React source code</br>
+<br>│ │ ├── components/ # Chat UI components</br>
+<br>│ │ ├── context/ # React context providers</br>
+<br>│ │ ├── hooks/ # Custom React hooks</br>
+<br>│ │ ├── pages/ # Page components</br>
+<br>│ │ ├── socket/ # Socket.io client setup (socket.js)</br>
+<br>│ │ └── App.jsx # Main application entry</br>
+<br>│ └── package.json # Client dependencies</br>
+<br>├── server/ # Node.js back-end</br>
+<br>│ ├── config/ # Environment config</br>
+<br>│ ├── controllers/ # Socket event handlers</br>
+<br>│ ├── models/ # Data models</br>
+<br>│ ├── socket/ # Socket.io setup (server.js integrates here)</br>
+<br>│ ├── utils/ # Utility functions</br>
+<br>│ ├── server.js # Main server entry file</br>
+<br>│ └── package.json # Server dependencies</br>
+<br>└── README.md # Project documentation</br>
 
 
 ---
@@ -66,7 +66,7 @@ npm install
 Create a .env file in the /server folder:
 
 PORT=5000
-CLIENT_URL=http://localhost:5173
+CLIENT_URL=http://localhost:3000
 
 
 Start the server:
@@ -133,26 +133,6 @@ Typing indicators
 
 Online/offline tracking
 
-Deployed server and client with clean UI and reliable Socket.io performance.
-
-🌐 Deployment (Optional)
-
-You can deploy your app as follows:
-
-Server: Render / Railway / Heroku
-
-Client: Netlify
-
-Example deployment:
-
-# Build and deploy client
-npm run build
-
-
-Deployed URLs 
-
-🌍 Live Client: https://your-client-url.netlify.app  
-🖥️ Live Server: https://your-server-url.onrender.com
 
 🧑‍💻 Author
 
