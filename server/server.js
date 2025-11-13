@@ -2,10 +2,13 @@
 
 const express = require('express');
 const http = require('http');
-const { Server } = require('socket.io');
 const cors = require('cors');
-const dotenv = require('dotenv');
 const path = require('path');
+const dotenv = require('dotenv');
+const { getMessages, getUsers } = require('./controllers/chatcontroller');
+const socketHandler = require('./socket/socketHandler');
+const { logEvent } = require('./utils/logger');
+
 
 // Load environment variables
 dotenv.config();
